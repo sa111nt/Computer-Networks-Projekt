@@ -103,7 +103,7 @@ public:
         }
     }
     void remove() {
-        printf("usuwanie gracza %d\n", _fd);
+        printf("Usuwanie gracza %d\n", _fd);
         players.erase(this);
         delete this;
 
@@ -133,7 +133,7 @@ class : eventManager {
             auto playerFd = accept(serverFd, (sockaddr*) &PlayerAddr, &PlayerAddrSize);
             if(playerFd == -1) error(1, errno, "accept error");
             
-            printf("nowe połączenie gracza: %s:%hu (fd: %d)\n", inet_ntoa(PlayerAddr.sin_addr), ntohs(PlayerAddr.sin_port), playerFd);
+            printf("Nowe połączenie gracza: %s:%hu (fd: %d)\n", inet_ntoa(PlayerAddr.sin_addr), ntohs(PlayerAddr.sin_port), playerFd);
             
             players.insert(new Player(playerFd));
         }
