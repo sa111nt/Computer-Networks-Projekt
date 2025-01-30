@@ -12,7 +12,7 @@
 #include <vector>
 #include <fstream>
 #include <map>
-#include <algorythm>
+#include <algorithm>
 #include <arpa/inet.h>
 #include <error.h>
 #include <netdb.h>
