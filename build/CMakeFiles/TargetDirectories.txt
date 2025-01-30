@@ -1,0 +1,3 @@
+/mnt/d/pobrane/sieci/githubproj/projekt_SK/build/CMakeFiles/SK_project.dir
+/mnt/d/pobrane/sieci/githubproj/projekt_SK/build/CMakeFiles/edit_cache.dir
+/mnt/d/pobrane/sieci/githubproj/projekt_SK/build/CMakeFiles/rebuild_cache.dir

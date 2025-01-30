@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -O0 -g -pthread CMakeFiles/SK_project.dir/server.cpp.o -o SK_project 
