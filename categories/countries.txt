@@ -1,4 +1,4 @@
-Afghanistan
+Afganistan
 Albania
 Algieria
 Andora
@@ -9,7 +9,7 @@ Argentyna
 Armenia
 Australia
 Austria
-Azerbaijan
+Azerbejdżan
 Bahamy
 Bahrajn
 Bangladesz
@@ -19,7 +19,7 @@ Belgia
 Belize
 Benin
 Bhutan
-Bolivia
+Boliwia
 Bośnia i Hercegowina
 Botswana
 Brazylia
@@ -49,13 +49,13 @@ Dominikana
 Timor Wschodni
 Ekwador
 Egipt
-Salvador
+Salwador
 Gwinea Równikowa
-Eritrea
+Erytrea
 Estonia
 Eswatini
 Etiopia
-Federacja Rosyjska
+Rosja
 Fidżi
 Finlandia
 Francja
@@ -71,7 +71,7 @@ Guatemala
 Gujana
 Gwinea
 Gwinea-Bissau
-Guyana
+Gujana Francuska
 Haiti
 Honduras
 Węgry
@@ -120,7 +120,7 @@ Mongolia
 Czarnogóra
 Maroko
 Mozambik
-Myanmar
+Mjanma
 Namibia
 Nauru
 Nepal
@@ -154,7 +154,7 @@ Sao Tome i Principe
 Arabia Saudyjska
 Senegal
 Serbia
-Seychelles
+Seszele
 Sierra Leone
 Singapur
 Słowacja
@@ -172,7 +172,7 @@ Szwecja
 Szwajcaria
 Syria
 Tajlandia
-Tadjikistan
+Tadżykistan
 Tanzania
 Togo
 Tonga
@@ -186,7 +186,7 @@ Ukraina
 Zjednoczone Emiraty Arabskie
 Wielka Brytania
 Stany Zjednoczone
-Uruguay
+Urugwaj
 Uzbekistan
 Vanuatu
 Watykan
