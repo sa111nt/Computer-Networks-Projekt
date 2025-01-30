@@ -22,3 +22,6 @@ jobs:
 
     - name: Build with Make
       run: cmake --build build
+
+    - name: Build with Makefile
+      run: make -C build
