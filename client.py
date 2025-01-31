@@ -104,14 +104,12 @@ class App(tk.Tk):
         self.frames['GameFrame'].letter_label.config(text='Litera to: ' + str(letter))
         self.frames['GameFrame'].country_entry.delete(0, END)
         self.frames['GameFrame'].city_entry.delete(0, END)
-        self.frames['GameFrame'].name_entry.delete(0, END)
 
-    def sendAnswers(self, country_entry, city_entry, name_entry):
+    def sendAnswers(self, country_entry, city_entry):
         country = country_entry.get()
         city = city_entry.get()
-        name = name_entry.get()
         self.frames['GameFrame'].button["state"] = "disabled"
-        client.send_message('A' + country + ";" + city + ";" + name + '\n')
+        client.send_message('A' + country + ";" + city + '\n')
 
 
 class NicknameFrame(tk.Frame):
@@ -161,13 +159,7 @@ class GameFrame(tk.Frame):
         self.city_entry = tk.Entry(right_frame, font=("Helvetica", 12))
         self.city_entry.pack(pady=(0, 10), ipadx=10, ipady=5)
 
-        self.name_label = tk.Label(right_frame, text="Imię", bg="#f0f0f0", font=("Helvetica", 12))
-        self.name_label.pack(pady=(0, 5))
-
-        self.name_entry = tk.Entry(right_frame, font=("Helvetica", 12))
-        self.name_entry.pack(pady=(0, 20), ipadx=10, ipady=5)
-
-        self.button = tk.Button(right_frame, text="Zatwierdź", command=lambda: controller.sendAnswers(self.country_entry, self.city_entry, self.name_entry))
+        self.button = tk.Button(right_frame, text="Zatwierdź", command=lambda: controller.sendAnswers(self.country_entry, self.city_entry))
         self.button.pack()
         self.button["state"] = "disabled"
 
